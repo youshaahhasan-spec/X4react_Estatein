@@ -1,0 +1,80 @@
+.cards-section{
+      padding-top: 40px;
+      padding-bottom: 40px;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      color: white;
+}
+
+.cards-section .card-element{
+      position: relative;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+       align-items: center; 
+      text-align: center;
+     background-color: rgb(65 63 63 / 50%);
+      width: 23%;
+      height: 120px;
+      border-radius: 8px;
+}
+@media screen and (max-width:772px){
+      .cards-section{
+           flex-wrap: wrap;
+       }
+
+      .cards-section .card-element{
+            width: 40%;
+            
+      }
+}
+@media screen and (max-width:600px){
+      .cards-section{
+         justify-content: center;
+       } 
+      .cards-section .card-element{
+            width: 80%;
+            
+            
+      }
+}
+.card-element .arow-icon{
+   position: absolute;
+   top:1px;
+   right: 3px;
+}
+.card-element .bottom-icon-circle{
+    
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    /* border: 2px solid #703bf7; */
+    box-shadow: -3px 3px   #703bf7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-element .bottom-icon-circle .top-icon-circle{
+    border-radius: 50%;
+    /* padding: 5px; */
+    box-shadow: 3px -3px    #703bf7;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cards-section .card-element p{
+      font-size: 10px;
+      font-weight: bold;
+}
+.card-element .bottom-icon-circle .top-icon-circle img {
+      border-radius: 50%;
+      background-color:#6c4ac2;
+}

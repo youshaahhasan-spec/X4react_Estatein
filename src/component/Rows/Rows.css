@@ -1,0 +1,20 @@
+.rows-section{
+      padding: 30px 25px;
+}
+.rows-section .rows{
+      display: flex;
+      gap:15px;
+      justify-content: flex-end;
+}
+.rows-section .rows div{
+     padding: 10px;
+      border-radius: 50%;
+      border: 1px solid rgb(65 63 63 / 50%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+.rows-section .rows div:hover{
+      background-color: rgb(65 63 63 / 50%);
+}

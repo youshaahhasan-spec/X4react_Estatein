@@ -1,0 +1,85 @@
+.property-section{
+      display: flex;
+      padding: 10px;
+      gap: 10px;
+      padding-bottom: 40px;
+     color: white;
+     border-bottom: 1px solid   rgb(65 63 63 / 50%);
+}
+.property-section .pro-card{
+   width: 30%;
+   padding: 10px;
+   border: 1px solid rgb(65 63 63 / 50%);
+  transition: 0.2s;
+}
+
+.property-section .pro-card .image{
+width: 100%;
+height: 200px;
+margin-bottom: 30px;
+}
+.property-section .pro-card p {
+color: #999;
+font-size: 15px;
+margin: -15px 0 0 0;
+}
+.property-section .pro-card .read-more{
+
+      color: white;
+      text-decoration: underline;
+      cursor: pointer;
+}
+.property-section .pro-card .villa-room{
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+      margin-top: 30px;
+
+}
+.property-section .pro-card .villa-room .special-span{
+      width: 50%;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 20px;
+
+}
+
+@media screen and (max-width: 772px) {
+.property-section .pro-card .villa-room{
+      flex-direction: column;
+}
+}
+
+@media  screen and (max-width: 992px) {
+  .property-section .pro-card{
+      width: 500px;
+ 
+   }
+   .property-section .pro-card .villa-room .special-span{
+      width: 100%;
+   }
+  .property-section{
+      justify-content: center;
+  }
+  .property-section .pro-card:nth-child(2),
+  .property-section .pro-card:nth-child(3){
+      display: none;
+    }
+}
+.property-section .bottom-part{
+      display: flex;
+      justify-content: space-between;
+}
+.bottom-part span {
+ font-size: 15px;
+ margin-top: 4px;
+}
+.bottom-part button {
+ font-size: 10px;
+ padding: 8px 5px;
+ background-color: rgb(112, 59, 247);
+ color: white;
+ font-weight: bold;
+ border-radius: 4px;
+}

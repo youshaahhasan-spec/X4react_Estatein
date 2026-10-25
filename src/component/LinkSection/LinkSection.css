@@ -1,0 +1,20 @@
+.link-el{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 180px;
+      margin-bottom: 20px;
+
+}
+.link-el h4{
+      color: #999;
+}
+.link-el a{
+      color: white;
+     text-decoration: none;
+     transition: 0.5s;
+}
+.link-el a:hover{
+      color: rgb(112, 59, 247);
+}
+
